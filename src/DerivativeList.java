@@ -19,4 +19,14 @@ public class DerivativeList {
 		return s + " \n ";
 	}
 	
+	public static void main(String[] args) {
+		Point p1 = new Point(0,0);
+		Point p2 = new Point(5,5);
+		
+		Point q1 = new Point(1,3);
+		Point q2 = new Point(4,0);
+		System.out.println(Display.intersect(p2, p1, q2, q1));
+	}
+	
+	
 }
